@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<ToggleButton android:text="ToggleButton" android:id="@+id/tbgpslib"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ToggleButton>
+		<ToggleButton android:text="ToggleButton" android:id="@+id/tbgps"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+		<ToggleButton android:text="ToggleButton" android:id="@+id/tbWifi"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+	</LinearLayout>
+	<CheckBox android:text="@string/geocodingenable" android:id="@+id/cbGeocoding"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:text="@string/interval" android:id="@+id/textView3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Spinner android:layout_width="fill_parent" android:id="@+id/spRefresh"
+			android:layout_height="wrap_content" android:entries="@array/refreshtime"/>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:text="@string/networkrange" android:id="@+id/textView3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Spinner android:layout_width="fill_parent" android:id="@+id/spNetworkRange"
+			android:layout_height="wrap_content" android:entries="@array/networkrange" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<TextView android:text="@string/gpsrange" android:id="@+id/textView3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<Spinner android:layout_width="fill_parent" android:id="@+id/spGpsRange"
+			android:layout_height="wrap_content" android:entries="@array/gpsrange" />
+	</LinearLayout>
+
+	<!--
+		<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_height="wrap_content"
+		android:id="@+id/tRealLoc" android:layout_width="wrap_content"
+		android:text="@string/realloc" android:layout_weight="1"
+		android:paddingLeft="3dip"></TextView> <Button
+		android:text="@string/realloc" android:id="@+id/bShowMap"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></Button> </LinearLayout>
+		<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_height="wrap_content"
+		android:id="@+id/tSimLoc" android:layout_width="wrap_content"
+		android:text="予測座標" android:layout_weight="1"
+		android:paddingLeft="3dip"></TextView> <Button
+		android:text="@string/simloc" android:id="@+id/bShowMapCalc"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></Button> </LinearLayout>
+	-->
+	<TextView android:text="取得状況" android:id="@+id/textView3"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:scrollbars="vertical" android:padding="5dip"
+		android:background="#ddddff">
+		<TextView android:id="@+id/tvLocation" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:text="start"
+			android:background="#000000" />
+	</ScrollView>
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button android:text="@string/clearlogfile" android:id="@+id/bClearlog"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="7sp" android:layout_weight="1"></Button>
+		<Button android:text="@string/cleardisplaylog" android:id="@+id/bShowlog"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="7sp" android:layout_weight="1"></Button>
+	</LinearLayout>
+</LinearLayout>

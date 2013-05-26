@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/kabayan/!svn/ver/1062/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service
+END
+GpsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/kabayan/!svn/ver/1062/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/GpsUtil.java
+END
+GpsLib.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/kabayan/!svn/ver/803/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/GpsLib.java
+END
+GeoHex.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/kabayan/!svn/ver/778/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/GeoHex.java
+END
+GpsLibService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/kabayan/!svn/ver/799/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/GpsLibService.java
+END
+GpsLibAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/kabayan/!svn/ver/799/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/GpsLibAlarm.java
+END
+NewCountdownTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/kabayan/!svn/ver/787/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/NewCountdownTimer.java
+END
+GpsLibStartup.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/kabayan/!svn/ver/795/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/GpsLibStartup.java
+END
+GpsLibServiceInterface.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/kabayan/!svn/ver/799/trunk/GpsLibActivity/src/jp/adlibjapan/android/lib/gpslibactivity/service/GpsLibServiceInterface.aidl
+END

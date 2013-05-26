@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GpsLib</string>
+    <string name="gpslib">サービス</string>
+
+    <string name="service">サービス</string>
+    <string name="servicetrue">起動中</string>
+    <string name="servicefalse">停止中</string>
+    <string name="running">計測</string>
+    <string name="runningtrue">計測中</string>
+    <string name="runningfalse">停止中</string>
+    <string name="setting">設定</string>
+    <string name="status">計測結果</string>
+    <string name="nextinterval">次回実行</string>
+
+    <string name="wifi">wifi</string>
+    <string name="gps">gps</string>
+    <string name="lat">緯度</string>
+    <string name="lon">経度</string>
+    <string name="acc">精度</string>
+    <string name="time">取得時刻</string>
+    <string name="sat">sat</string>
+    <string name="geohex">geohex</string>
+    <string name="geocoding">住所</string>
+    <string name="geocodingenable">逆ジオコーディングを行う</string>
+
+    <string name="gpsstatus">gpsstatus</string>
+
+    <string name="interval">位置更新頻度</string>
+    <string name="sec">秒</string>
+    <string name="timerange">情報鮮度</string>
+
+    <string name="realloc">座標表示</string>
+    <string name="simloc">予測座標</string>
+<!--
+    string name="refresh">位置更新頻度</string>
+ -->
+
+    <string name="clearlogfile">ログファイル消去</string>
+    <string name="cleardisplaylog">画面ログ消去</string>
+
+   <string name="networkrange">ネットワーク精度</string>
+    <string name="gpsrange">GPS精度</string>
+</resources>

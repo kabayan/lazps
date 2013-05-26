@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="refreshtime">
+    <item>1分 (消費電力最大)</item>
+    <item>3分 (消費電力大)</item>
+    <item>5分 (推奨)</item>
+    <item>10分 (消費電力小)</item>
+  </array>
+  <array name="networkrange">
+    <item>100m (非推奨)</item>
+    <item>500m (推奨）</item>
+    <item>1000m (町レベル)</item>
+    <item>5000m (市区レベル)</item>
+  </array>
+  <array name="gpsrange">
+    <item>20m (見晴らしのいい郊外)</item>
+    <item>50m (推奨)</item>
+    <item>200m (ビルの多い市街地)</item>
+  </array>
+</resources>

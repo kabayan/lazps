@@ -1,0 +1,43 @@
+10
+
+dir
+1214
+http://www.adlibjapan.jp/svn/kabayan/trunk/GpsLibActivity/res
+http://www.adlibjapan.jp/svn/kabayan
+
+
+
+2011-07-26T18:42:26.679839Z
+1062
+kabayan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f08a1f72-402e-de11-9659-000e0c7f2b46
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+values
+dir
+
